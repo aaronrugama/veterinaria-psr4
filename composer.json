@@ -1,0 +1,13 @@
+{
+    "name": "veterinaria/sistema",
+    "description": "Sistema de gestión de clínica veterinaria con PSR-4 Autoload",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Veterinaria\\": "src/"
+        }
+    }
+}
